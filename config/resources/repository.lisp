@@ -1,0 +1,17 @@
+(in-package :mu-cl-resources)
+
+(add-prefix "dct" "http://purl.org/dc/terms/")
+(add-prefix "dct" "http://purl.org/dc/terms/")
+(add-prefix "ext" "http://mu.semte.ch/vocabularies/ext/")
+(add-prefix "foaf" "http://xmlns.com/foaf/0.1/")
+(add-prefix "nfo" "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#")
+(add-prefix "notable" "http://data.notable.redpencil.io/")
+(add-prefix "org" "http://www.w3.org/ns/org#")
+(add-prefix "pav" "http://purl.org/pav/")
+(add-prefix "pav" "http://purl.org/pav/")
+(add-prefix "pdo" "http://ontologies.smile.deri.ie/pdo#")
+(add-prefix "prov" "http://www.w3.org/ns/prov#")
+(add-prefix "rdfs" "http://www.w3.org/2000/01/rdf-schema#")
+(add-prefix "schema" "http://schema.org/")
+(add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")
+

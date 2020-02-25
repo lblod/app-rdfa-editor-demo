@@ -1,0 +1,119 @@
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix notable: <http://data.notable.redpencil.io/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix pdo: <http://ontologies.smile.deri.ie/pdo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+<http://data.notable.redpencil.io/person/f90dd41b-935f-4bbd-bb6a-1272cef6e35> a foaf:Person;
+                   mu:uuid "f90dd41b-935f-4bbd-bb6a-1272cef6e35f";
+                   foaf:lastName "Ruiz de Arcaute";
+                   foaf:firstName "Felix".
+
+<http://data.notable.redpencil.io/person/a8d82ed2-674f-4b80-98bf-d616d642406e> a foaf:Person;
+                   mu:uuid "a8d82ed2-674f-4b80-98bf-d616d642406e";
+                   foaf:lastName "Versteden";
+                   foaf:firstName "Aad".
+
+<http://data.notable.redpencil.io/person/4bef3393-4963-4f1f-8ce3-ca5ce6914e97> a foaf:Person;
+                   mu:uuid "4bef3393-4963-4f1f-8ce3-ca5ce6914e97";
+                   foaf:lastName "Pauwels";
+                   foaf:firstName "Erika".
+
+<http://data.notable.redpencil.io/person/8705d4c2-0b53-4656-8520-17da4b4a3dbb> a foaf:Person;
+                   mu:uuid "8705d4c2-0b53-4656-8520-17da4b4a3dbb";
+                   foaf:lastName "Vandekeybus";
+                   foaf:firstName "Niels".
+
+<http://data.notable.redpencil.io/person/6761ff1c-1953-4a77-88dd-6ea5ef601273> a foaf:Person;
+                   mu:uuid "6761ff1c-1953-4a77-88dd-6ea5ef601273";
+                   foaf:lastName "Delaure";
+                   foaf:firstName "Johan".
+
+<http://data.notable.redpencil.io/person/c68d5483-7329-4eed-896c-0db0e38149f0> a foaf:Person;
+                   mu:uuid "c68d5483-7329-4eed-896c-0db0e38149f0";
+                   foaf:lastName "Diederick";
+                   foaf:firstName "Michael".
+
+<http://data.notable.redpencil.io/person/f70176ee-48cd-474d-b323-d0d53da8d478> a foaf:Person;
+                   mu:uuid "f70176ee-48cd-474d-b323-d0d53da8d478";
+                   foaf:lastName "Lovisa";
+                   foaf:firstName "Claire".
+
+<http://data.notable.redpencil.io/person/9a01bdd9-61d6-4309-92ac-5e8a4b4fc5bb> a foaf:Person;
+                   mu:uuid "9a01bdd9-61d6-4309-92ac-5e8a4b4fc5bb";
+                   foaf:lastName "Naghizadeh";
+                   foaf:firstName "Mehran".
+
+
+<http://data.notable.redpencil.io/role/ba63fc08-aad2-40a6-a4a9-671ff4c597f3> a org:Role;
+                   mu:uuid "ba63fc08-aad2-40a6-a4a9-671ff4c597f3";
+                   skos:prefLabel "Web Architect".
+
+<http://data.notable.redpencil.io/role/3e39c3f5-eb93-4908-bd2f-2c878fa76369> a org:Role;
+                   mu:uuid "3e39c3f5-eb93-4908-bd2f-2c878fa76369";
+                   skos:prefLabel "Technical Futurist".
+
+<http://data.notable.redpencil.io/role/3e48a62f-860e-4380-8323-b984f38fbd9a> a org:Role;
+                   mu:uuid "3e48a62f-860e-4380-8323-b984f38fbd9a";
+                   skos:prefLabel "Project Driver".
+
+<http://data.notable.redpencil.io/role/dcf2a759-a7a2-4fd7-909a-0e3a20a3b7f5> a org:Role;
+                   mu:uuid "dcf2a759-a7a2-4fd7-909a-0e3a20a3b7f5";
+                   skos:prefLabel "Full Stack Developer".
+
+#felix
+<http://data.notable.redpencil.io/membership/946b477a-e640-4155-94b6-4874090c8ba1 > a org:Membership;
+                    mu:uuid "946b477a-e640-4155-94b6-4874090c8ba1";
+                    org:member <http://data.notable.redpencil.io/person/f90dd41b-935f-4bbd-bb6a-1272cef6e35>;
+                    org:role <http://data.notable.redpencil.io/role/dcf2a759-a7a2-4fd7-909a-0e3a20a3b7f5>.
+
+#aad
+<http://data.notable.redpencil.io/membership/16c1b0c1-7327-495e-b37a-c942cd121d1e> a org:Membership;
+                    mu:uuid "16c1b0c1-7327-495e-b37a-c942cd121d1e";
+                    org:member <http://data.notable.redpencil.io/person/a8d82ed2-674f-4b80-98bf-d616d642406e>;
+                    org:role <http://data.notable.redpencil.io/role/ba63fc08-aad2-40a6-a4a9-671ff4c597f3>.
+
+#erika
+<http://data.notable.redpencil.io/membership/fe07b1cc-3317-4530-8736-774a2c25d4e6> a org:Membership;
+                    mu:uuid "fe07b1cc-3317-4530-8736-774a2c25d4e6";
+                    org:member <http://data.notable.redpencil.io/person/4bef3393-4963-4f1f-8ce3-ca5ce6914e97>;
+                    org:role <http://data.notable.redpencil.io/role/ba63fc08-aad2-40a6-a4a9-671ff4c597f3>.
+
+#niels
+<http://data.notable.redpencil.io/membership/6d07bbcc-f792-4163-8d7b-e812f2b9b29c> a org:Membership;
+                    mu:uuid "6d07bbcc-f792-4163-8d7b-e812f2b9b29c";
+                    org:member <http://data.notable.redpencil.io/person/8705d4c2-0b53-4656-8520-17da4b4a3dbb>;
+                    org:role <http://data.notable.redpencil.io/role/ba63fc08-aad2-40a6-a4a9-671ff4c597f3>.
+
+#johan
+<http://data.notable.redpencil.io/membership/5195c6cb-cb44-4be9-8e23-7e682c2ab883> a org:Membership;
+                    mu:uuid "5195c6cb-cb44-4be9-8e23-7e682c2ab883";
+                    org:member <http://data.notable.redpencil.io/person/6761ff1c-1953-4a77-88dd-6ea5ef601273>;
+                    org:role <http://data.notable.redpencil.io/role/3e48a62f-860e-4380-8323-b984f38fbd9a>.
+
+#michael
+<http://data.notable.redpencil.io/membership/4809b2fb-2b7c-4eb5-823e-75db2f69f1ab> a org:Membership;
+                    mu:uuid "4809b2fb-2b7c-4eb5-823e-75db2f69f1ab";
+                    org:member <http://data.notable.redpencil.io/person/c68d5483-7329-4eed-896c-0db0e38149f0>;
+                    org:role .
+
+#claire
+<http://data.notable.redpencil.io/membership/3c58cd56-6045-432f-9e5e-e5d876e4aa6a> a org:Membership;
+                    mu:uuid "3c58cd56-6045-432f-9e5e-e5d876e4aa6a";
+                    org:member <http://data.notable.redpencil.io/person/f70176ee-48cd-474d-b323-d0d53da8d478>;
+                    org:role <http://data.notable.redpencil.io/role/dcf2a759-a7a2-4fd7-909a-0e3a20a3b7f5>.
+
+#mehran
+<http://data.notable.redpencil.io/membership/18bbdd47-69e6-4a9a-9266-0e63771bf7b7> a org:Membership;
+                    mu:uuid "18bbdd47-69e6-4a9a-9266-0e63771bf7b7";
+                    org:member <http://data.notable.redpencil.io/person/9a01bdd9-61d6-4309-92ac-5e8a4b4fc5bb>;
+                    org:role <http://data.notable.redpencil.io/role/dcf2a759-a7a2-4fd7-909a-0e3a20a3b7f5>.

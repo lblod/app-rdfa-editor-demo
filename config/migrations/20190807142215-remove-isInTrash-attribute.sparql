@@ -1,0 +1,13 @@
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+PREFIX ext: <http://mu.semte.ch/vocabularies/ext/>
+PREFIX mu: <http://mu.semte.ch/vocabularies/core/>
+PREFIX nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+PREFIX notable: <http://data.notable.redpencil.io/>
+
+DELETE { GRAPH ?g {
+  ?s ext:isInTrash ?o .
+}}
+
+WHERE { GRAPH ?g {
+  ?s ext:isInTrash ?o .
+}}

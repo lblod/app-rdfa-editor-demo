@@ -1,0 +1,9 @@
+<http://lblod.info/templates/fa281b26-9cc2-45ca-a522-d4438442ed7e> a <http://mu.semte.ch/vocabularies/ext/Template>;
+  <http://purl.org/dc/terms/title> "Test template";
+  <http://mu.semte.ch/vocabularies/core/uuid> "fa281b26-9cc2-45ca-a522-d4438442ed7e";
+     <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
+  <http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+  This is a test template. Congrats, it works !
+  """ ;
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "test" .
