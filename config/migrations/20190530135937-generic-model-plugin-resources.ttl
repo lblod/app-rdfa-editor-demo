@@ -621,4 +621,23 @@
                              <http://www.w3.org/2000/01/rdf-schema#range> <https://data.lblod.info/id/rdf-resources/5CEFC4DD6F51CC0008000006>.
 
 
+# Class for document #
+<https://data.lblod.info/id/rdf-resources/5CEFC4DD6F51CC0008000094> a <http://www.w3.org/2000/01/rdf-schema#Class>;
+    <http://mu.semte.ch/vocabularies/core/uuid> "5CEFC4DD6F51CC0008000094" ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "document";
+    <http://mu.semte.ch/vocabularies/ext/apiPath> "/documents";
+    <http://mu.semte.ch/vocabularies/ext/displayProperties> "[\"test-du-seuuuuuuuuuuuuum\"]";
+    <http://mu.semte.ch/vocabularies/ext/baseUri> "http://data.notable.redpencil.io/document/";
+    <http://mu.semte.ch/vocabularies/ext/jsonApiType> "documents";
+    <http://mu.semte.ch/vocabularies/ext/apiFilter> "filter"; # use filter[name] to search on the name property
+    <http://mu.semte.ch/vocabularies/ext/isPrimitive> false;
+    <http://mu.semte.ch/vocabularies/ext/rdfsClassProperties> <http://data.lblod.info/id/rdf-properties/5CEFC4DD6F51CC000800001Z>;
 
+    <http://mu.semte.ch/vocabularies/ext/rdfaType> <http://xmlns.com/foaf/0.1/Document>.
+
+# Properties for editor-document #
+<http://data.lblod.info/id/rdf-properties/5CEFC4DD6F51CC000800001Z> a <http://www.w3.org/2000/01/rdf-schema#Property>;
+                             <http://mu.semte.ch/vocabularies/core/uuid> "5CEFC4DD6F51CC000800001Z" ;
+                             <http://www.w3.org/2000/01/rdf-schema#label> "date";
+                             <http://mu.semte.ch/vocabularies/ext/rdfaType> <http://purl.org/dc/terms/created>;
+                             <http://www.w3.org/2000/01/rdf-schema#range> <http://data.lblod.info/id/rdfs-classes/primitive/date>.

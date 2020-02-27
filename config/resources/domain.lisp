@@ -136,3 +136,11 @@
   :resource-base (s-url "http://data.lblod.info/id/action-item/")
   :features '(include-uri)
   :on-path "action-items")
+
+
+(define-resource document ()
+  :class (s-prefix "foaf:Document")
+  :properties `((:date :datetime ,(s-prefix "dct:created")))
+  :resource-base (s-url "http://data.notable.redpencil.io/document/")
+  :features '(include-uri)
+  :on-path "documents")

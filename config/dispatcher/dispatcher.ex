@@ -66,6 +66,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/folders/"
   end
 
+  match "/documents/*path" do
+    Proxy.forward conn, path, "http://resource/documents/"
+  end
+
   ############
   # METAMODEl
   ############
