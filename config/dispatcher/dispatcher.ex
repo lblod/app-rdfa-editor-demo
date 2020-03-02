@@ -22,48 +22,8 @@ defmodule Dispatcher do
   #   Proxy.forward conn, path, "http://resource/themes/"
   # end
 
-  match "/editor-documents/*path" do
-    Proxy.forward conn, path, "http://resource/editor-documents/"
-  end
-
   match "/templates/*path" do
     Proxy.forward conn, path, "http://resource/templates/"
-  end
-
-  match "/meetings/*path" do
-    Proxy.forward conn, path, "http://resource/meetings/"
-  end
-
-  match "/memberships/*path" do
-    Proxy.forward conn, path, "http://resource/memberships/"
-  end
-
-  match "/persons/*path" do
-    Proxy.forward conn, path, "http://resource/persons/"
-  end
-
-  match "/roles/*path" do
-    Proxy.forward conn, path, "http://resource/roles/"
-  end
-
-  match "/agendas/*path" do
-    Proxy.forward conn, path, "http://resource/agendas/"
-  end
-
-  match "/agenda-items/*path" do
-    Proxy.forward conn, path, "http://resource/agenda-items/"
-  end
-
-  match "/agenda-item-proceedings/*path" do
-    Proxy.forward conn, path, "http://resource/agenda-item-proceedings/"
-  end
-
-  match "/action-items/*path" do
-    Proxy.forward conn, path, "http://resource/action-item/"
-  end
-
-  match "/folders/*path" do
-    Proxy.forward conn, path, "http://resource/folders/"
   end
 
   match "/documents/*path" do
