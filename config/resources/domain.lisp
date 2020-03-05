@@ -34,3 +34,13 @@
   :resource-base (s-url "http://data.notable.redpencil.io/document/")
   :features '(include-uri)
   :on-path "documents")
+
+(define-resource editor-document ()
+  :class (s-prefix "notable:EditorDocument")
+  :properties `((:title :string ,(s-prefix "dct:title"))
+                (:content :string ,(s-prefix "ext:content"))
+                (:created-on :datetime ,(s-prefix "pav:createdOn"))
+                (:modified-on :datetime ,(s-prefix "pav:modifiedOn"))
+                (:context :string ,(s-prefix "ext:editorDocumentContext")))
+  :resource-base (s-url "http://data.notable.redpencil.io/editor-documents/")
+  :on-path "editor-documents")

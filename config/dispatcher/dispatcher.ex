@@ -30,6 +30,10 @@ defmodule Dispatcher do
     Proxy.forward conn, path, "http://resource/documents/"
   end
 
+  match "/editor-documents/*path" do
+    Proxy.forward conn, path, "http://resource/editor-documents/"
+  end
+
   ############
   # METAMODEl
   ############

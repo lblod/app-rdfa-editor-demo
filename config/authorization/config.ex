@@ -23,7 +23,8 @@ defmodule Acl.UserGroups.Config do
                         "http://www.w3.org/2000/01/rdf-schema#Class",
                         "http://www.w3.org/2000/01/rdf-schema#Property",
                         "http://mu.semte.ch/vocabularies/ext/Template",
-                        "http://xmlns.com/foaf/0.1/Document"
+                        "http://xmlns.com/foaf/0.1/Document",
+                        "http://data.notable.redpencil.io/EditorDocument"
                       ]
                     } }
                 ] },
